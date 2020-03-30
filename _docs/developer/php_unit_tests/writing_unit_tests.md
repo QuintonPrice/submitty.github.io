@@ -214,7 +214,7 @@ For example, to run the function `testInvalidProperty` would be
 `vendor/bin/phpunit -c tests/phpunit.xml --filter testInvalidProperty` and running all
 of `AccessControlTester` would be
 `vendor/bin/phpunit -c tests/phpunit.xml --filter AccessControlTester`. Be aware, filter
-can match aaginst partial strings, so if you have two tests `testFoo` and `testFooBar`,
+can match against partial strings, so if you have two tests `testFoo` and `testFooBar`,
 running `--filter testFoo` will run them both. Alternatively, you can also directly run
 `phpunit` against a specific class by passing the path to the test class directly to
 `phpunit`, for example
